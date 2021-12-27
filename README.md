@@ -7,3 +7,5 @@
 - There is two up and down arrow to increase and decrease value
 - A swap button to exchange currency dynamically
 - Familiar with making requests
+## Demo
+[Try it](https://tranthaituananh.github.io/currency-converter/)
