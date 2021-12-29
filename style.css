@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --primary-color: #40d1b2;
+  --primary-color: #0071f3;
 }
 
 * {
@@ -121,6 +121,7 @@ button:focus {
   text-align: center;
   text-shadow: 0px 1px 0px #3d768a;
 }
+
 .btn:hover {
   background: -webkit-gradient(
     linear,
@@ -133,7 +134,21 @@ button:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3');
   background-color: #408c99;
 }
+
 .btn:active {
   position: relative;
   top: 1px;
+}
+
+p#info {
+  text-transform: uppercase;
+  position: absolute;
+right: 0;
+bottom: 0;
+margin: 20px;
+}
+
+a {
+  color: #0071f3;
+  text-decoration: none;
 }
